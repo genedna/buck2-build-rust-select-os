@@ -1,0 +1,6 @@
+[package]
+name = "buck2-build-rust-select-os"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
