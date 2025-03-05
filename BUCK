@@ -1,3 +1,9 @@
+"""Buck build file for the rust-select-os binary target.
+
+This module defines a rust binary target that selects different source files
+based on the target operating system platform.
+"""
+
 load("@prelude//toolchains:rust.bzl", "system_rust_toolchain")
 
 CRATE_ROOTS = {
