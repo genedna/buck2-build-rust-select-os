@@ -7,9 +7,9 @@ based on the target operating system platform.
 load("@prelude//toolchains:rust.bzl", "system_rust_toolchain")
 
 CRATE_ROOTS = {
-    "ovr_config//os:linux": "src/main-linux.rs",
-    "ovr_config//os:windows": "src/main-windows.rs",
-    "ovr_config//os:macos": "src/main-mac.rs",
+    "prelude//os:linux": "src/main-linux.rs",
+    "prelude//os:windows": "src/main-windows.rs",
+    "prelude//os:macos": "src/main-mac.rs",
     "DEFAULT": "src/main.rs",
 }
 
