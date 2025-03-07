@@ -4,8 +4,6 @@ This module defines a rust binary target that selects different source files
 based on the target operating system platform.
 """
 
-load("@prelude//toolchains:rust.bzl", "system_rust_toolchain")
-
 CRATE_ROOTS = {
     "prelude//os:linux": "src/main-linux.rs",
     "prelude//os:windows": "src/main-windows.rs",
